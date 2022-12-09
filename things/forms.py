@@ -1,4 +1,6 @@
 """Forms of the project."""
+from django import forms
+from .models import Thing
 
 # Create your forms here.
 class ThingForm(forms.ModelForm):
